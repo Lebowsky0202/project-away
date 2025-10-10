@@ -1,84 +1,31 @@
-// Место для первой задачи
-function firstTask() {
-	// Пишем решение вот тут
-	let number = 5
-	while (number < 11) {
-		console.log(number++)
-	}
-}
+// function thirdTask() {
+// 	// Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+// 	const data = [5, 10, 'Shopping', 20, 'Homework']
+// 	const result = []
 
-// fifthTask()
+// 	// Пишем решение вот тут
+// 	let i = data.length - 1
+// 	let j = 0
 
-// Место для второй задачи
-function secondTask() {
-	// Пишем решение вот тут
-	for (let i = 20; i => 10; i--) {
-		if (i === 13) break
-		console.log(i)
-	}
-}
-
-// secondTask()
-
-// Место для третьей задачи
-function thirdTask() {
-	// Пишем решение вот тут
-	for (let i = 0; i < 11; i++) {
-		if (i % 2) {
-			continue
-		}
-		console.log(i)
-	}
-}
+// 	while (0 <= i) {
+// 		result[j] = data[i]
+// 		i--
+// 		j++
+// 	}
+// 	console.log(result)
+// 	// Не трогаем
+// 	return result
+// }
 
 // thirdTask()
 
-// Место для четвертой задачи
+const lines = 5
+let result = ''
+// Проверяется именно переменная result, формируйте строку в ней
 
-// Цикл, который нужно переписать:
-
-// for (let i = 2; i <= 16; i++) {
-//     if (i % 2 === 0) {
-//         continue;
-//     } else {
-//         console.log(i);
-//     }
-// }
-
-function fourthTask() {
-	// Пишем решение вот тут
-	let i = 2
-	while (i <= 16) {
-		if (i % 2 === 0) {
-			i++
-			continue
-		}
-		console.log(i)
-		i++
-	}
+for (let i = 0; i < lines; i++) {
+	// result += '*\n'
+	for (let j = 0; j < i; j++) {}
 }
-fourthTask()
 
-// Место для пятой задачи
-
-function fifthTask() {
-	const arrayOfNumbers = []
-
-	// Пишем решение вот тут
-	// for (let i = 0; i <= 5; i++) {
-	// 	for (let j = 5; j <= 10; j++) {
-	// 		arrayOfNumbers[] = j
-	// 	}
-	// }
-	let i = 0
-	let j = 5
-	while (i <= 5) {
-		arrayOfNumbers[i] = j
-		i++
-		j++
-	}
-
-	console.log(arrayOfNumbers)
-	// Не трогаем
-	return arrayOfNumbers
-}
+console.log(result)
